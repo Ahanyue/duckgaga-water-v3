@@ -18,11 +18,11 @@
     '一封来自小鸭嘎嘎公益组织的信',
     '为什么反复讲：不是远离水，是学会安全亲水。',
     '教孩子六不准：把安全规则讲成清楚、可执行的边界。',
-    '第一条约定：想去水边，先和大人说。',
-    '会游泳也需要大人在场。',
+    '第一条约定：想去水边，先和家长说。',
+    '会游泳也需要家长在场。',
     '分清哪些水域可以去，哪些地方要绕开。',
     '不熟悉的水，不靠近，也别试探。',
-    '发现有人落水，先叫大人和报警。',
+    '发现有人落水，先叫家长和报警。',
     '和孩子一起复习，也欢迎分享给其他家长。',
   ];
 
@@ -249,14 +249,14 @@
           { transform: 'translateX(6px)' },
           { transform: 'translateX(0)' },
         ], { duration: 220 });
-        if (rescueTip) rescueTip.textContent = '按顺序来：先叫大人，再打 110。';
+        if (rescueTip) rescueTip.textContent = '按顺序来：先叫家长，再打 110。';
         return;
       }
       token.classList.add('is-lit');
       const count = rescueTokens.filter((item) => item.classList.contains('is-lit')).length;
       if (rescueTip) {
         rescueTip.textContent = count === rescueTokens.length
-          ? '完成！记住：孩子不下水施救，先让专业的大人来帮忙。'
+          ? '完成！记住：孩子不下水施救，先让专业人员来帮忙。'
           : `已完成 ${count} / 4，继续点亮下一步。`;
       }
     });
