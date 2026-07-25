@@ -2728,6 +2728,13 @@ body {
     line-height: 1.62;
   }
 
+  .story-card:not(.story-card--letter) .card-copy > .primary-action,
+  .story-card:not(.story-card--letter) .card-copy > .soft-action,
+  .story-card:not(.story-card--letter) .card-copy > .soft-link {
+    justify-self: end;
+    margin: 12px 4px 0 auto;
+  }
+
   .story-card:not(.story-card--letter) .risk-visual,
   .story-card:not(.story-card--letter) .interactive-visual,
   .story-card:not(.story-card--letter) .promise-board,
