@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>和孩子说清水边安全 | 小鸭嘎嘎公益</title>
+<meta name="description" content="小鸭嘎嘎公益出品：给家长的一份防溺水陪讲指南，把防溺水“六不”变成孩子记得住的水边安全约定。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<!--
+  DUCK GAGA 防溺水卡片版 · 品牌 token 摘要
+  色彩：柠檬黄 #F5E400 / 墨黑 #11120E / 奶白 #FFF8D8 / 水蓝 #6EC9F5 / 爱心粉 #FF8FA8 / 薄荷绿 #7FDBB5 / 警示红 #FF5A4E
+  字体：Baloo 2 + 系统圆体；粗黑描边、圆角贴纸、舞台式深色背景
+  动效：卡片滑动 620ms cubic-bezier(0.2, 0.9, 0.2, 1)，按钮/徽章 180ms，小鸭 cursor 跟随 + 点击涟漪
+  吉祥物：使用“视觉资产03-小鸭嘎嘎logo图片-仅鸭子透明.png”，只做整体缩放、旋转、位移，不改画面本身
+-->
+</head>
+<body>
+
+<div class="duck-cursor" aria-hidden="true">
+  <img src="视觉资产/视觉资产03-小鸭嘎嘎logo图片-仅鸭子透明.png" alt="">
+</div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="#card-0" aria-label="回到第一张卡片">
+    <img src="视觉资产/视觉资产03-小鸭嘎嘎logo图片-仅鸭子透明.png" alt="">
+    <span>DUCK GAGA <small>小鸭嘎嘎公益</small></span>
+  </a>
+  <nav class="chapter-tabs" aria-label="章节">
+    <button class="chapter-tab is-active" data-jump="0" type="button">家长信</button>
+    <button class="chapter-tab" data-jump="2" type="button">六约定</button>
+    <button class="chapter-tab" data-jump="5" type="button">水边图</button>
+    <button class="chapter-tab" data-jump="7" type="button">遇险</button>
+    <button class="chapter-tab" data-jump="8" type="button">复述</button>
+  </nav>
+  <a class="topbar__link" href="防溺水六不准/handout.html" target="_blank" rel="noopener">打印资料</a>
+</header>
+
+<main class="deck-shell is-first-card">
+  <div class="ambient ambient--one" aria-hidden="true"></div>
+  <div class="ambient ambient--two" aria-hidden="true"></div>
+  <div class="ambient ambient--three" aria-hidden="true"></div>
+
+  <section class="deck-intro" aria-labelledby="deck-title">
+    <p class="eyebrow">7月25日 · 世界预防溺水日</p>
+    <h1 id="deck-title">和孩子说清水边安全</h1>
+    <p>给家长的一份防溺水陪讲指南</p>
+  </section>
+
+  <section class="deck-stage" aria-label="防溺水陪讲卡片">
+    <div class="cards" id="cards">
+
+      <article class="story-card story-card--letter is-active" data-card="0" data-title="给家长的一封信" data-chapter="0">
+        <figure class="letter-art-card">
+          <img src="视觉资产/卡片01-v2.png" alt="给家长的一封信：小鸭嘎嘎公益写给家长的防溺水陪讲指南">
+        </figure>
+      </article>
+
+      <article class="story-card story-card--why" data-card="1" data-title="为什么要讲防溺水" data-chapter="0">
+        <div class="card-content">
+          <div class="card-copy">
+            <p class="card-kicker">为什么年年讲</p>
+            <h2><span>不是不让孩子亲水</span><span>而是学会安全亲水</span></h2>
+            <p class="card-text card-text--lead">“防溺水不就是安全提醒吗？为什么年年说、反复讲，不去水边不就好了吗？”“小鸭嘎嘎”也常听到这样的疑问。</p>
+            <p class="card-text card-text--talk">我们的回答是：防溺水不只是限制孩子靠近水域，而是帮助孩子在有人看护、规则清楚的情况下，学习认识水、尊重水、避开风险。</p>
+            <p class="card-text card-text--source">这与世界卫生组织（WHO）倡导的方向一致：加强看护，开展基础游泳技能与水安全教育。</p>
+          </div>
+          <div class="risk-visual" aria-hidden="true">
+            <div class="calm-water">
+              <span>看起来平静</span>
+              <i class="danger danger--one">深坑</i>
+              <i class="danger danger--two">暗流</i>
+              <i class="danger danger--three">水草</i>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-card story-card--promises" data-card="2" data-title="防溺水六不准" data-chapter="2">
+        <div class="card-content">
+          <div class="card-copy">
+            <h2>教孩子防溺水六不准</h2>
+            <p class="card-text card-text--lead">“六不准”不是让孩子背一组禁令，而是把水边安全讲成清楚、可执行的边界：谁能陪，哪里能去，遇到危险先找谁。</p>
+            <p class="card-text card-text--talk">先让孩子记住这六句话，再慢慢解释每一句背后的原因。规则讲得明白，孩子才更容易在真正靠近水时想得起来。</p>
+            <div class="promise-progress"><span id="promiseCount">0</span> / 6 已点亮</div>
+          </div>
+          <div class="promise-board" aria-label="六个安全约定">
+            <button class="promise-chip" type="button">想玩水，先问大人</button>
+            <button class="promise-chip" type="button">朋友叫，也先回家说</button>
+            <button class="promise-chip" type="button">会游泳，也要有人看</button>
+            <button class="promise-chip" type="button">没有救援，不靠近</button>
+            <button class="promise-chip" type="button">不熟悉的水，别试探</button>
+            <button class="promise-chip" type="button">想帮人，先叫人</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-card story-card--ask" data-card="3" data-title="想去水边先问大人" data-chapter="2">
+        <div class="card-content">
+          <div class="card-copy">
+            <p class="card-kicker">约定 1 + 2</p>
+            <h2>想去水边先问大人 朋友叫也先回家说</h2>
+            <p class="card-text card-text--source">教育部防溺水“六不”原文：不私自下水游泳；不擅自与他人结伴游泳。</p>
+            <p class="card-text card-text--talk">可以和孩子说：想去水边，不是不能说，但一定要先告诉大人。朋友叫你一起去，也先回家说一声。</p>
+            <button class="soft-action" data-effect="circle" type="button">打开陪伴圈</button>
+          </div>
+          <div class="ask-visual interactive-visual handdrawn-visual" aria-hidden="true">
+            <img class="handdrawn-img" src="视觉资产/waterside-handdrawn/dock.png" alt="">
+            <img class="tiny-duck" src="视觉资产/视觉资产03-小鸭嘎嘎logo图片-仅鸭子透明.png" alt="">
+            <span class="adult-circle">大人陪同</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-card story-card--watch" data-card="4" data-title="会游泳，也要有人看" data-chapter="2">
+        <div class="card-content">
+          <div class="card-copy">
+            <p class="card-kicker">约定 3</p>
+            <h2>会游泳，也要有人看</h2>
+            <p class="card-text card-text--source">教育部防溺水“六不”原文：不在无家长或教师带领的情况下游泳。</p>
+            <p class="card-text card-text--talk">会游泳是一件好事，但它不是护身符。大人在旁边，是为了让孩子玩得开心，也有人及时看见变化。</p>
+            <button class="soft-action" data-effect="watch" type="button">点亮看护视线</button>
+          </div>
+          <div class="watch-visual interactive-visual handdrawn-visual" aria-hidden="true">
+            <img class="handdrawn-img" src="视觉资产/waterside-handdrawn/pool.png" alt="">
+            <img class="tiny-duck" src="视觉资产/视觉资产03-小鸭嘎嘎logo图片-仅鸭子透明.png" alt="">
+            <span class="watch-eye eye-a"></span>
+            <span class="watch-eye eye-b"></span>
+            <span class="watch-ray"></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-card story-card--map" data-card="5" data-title="水边危险地图" data-chapter="5">
+        <div class="card-content">
+          <div class="card-copy">
+            <p class="card-kicker">约定 4</p>
+            <h2><span>没有安全设施的水，</span><span>不靠近</span></h2>
+            <p class="card-text card-text--source">教育部防溺水“六不”原文：不到无安全设施、无救援人员的水域游泳。</p>
+            <p class="card-text card-text--talk">可以结合家附近的真实地点讲：河道、水库、鱼塘、工地积水坑、废弃采石坑，都不是玩水的地方。</p>
+          </div>
+          <div class="place-map" aria-label="水边地点对比">
+            <div class="place good">
+              <img src="视觉资产/手绘风-泳池.png" alt="">
+              <b>可考虑</b>
+              <span>正规泳池</span>
+              <small>大人看护 + 救生员 + 安全设施</small>
+            </div>
+            <div class="place bad">
+              <img src="视觉资产/手绘风-野外水域.png" alt="">
+              <b>不靠近</b>
+              <span>野外水域</span>
+              <small>水深未知 / 暗流 / 无救援</small>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-card story-card--unknown" data-card="6" data-title="不熟悉的水，别试探" data-chapter="5">
+        <div class="card-content">
+          <div class="card-copy">
+            <p class="card-kicker">约定 5</p>
+            <h2>不熟悉的水，别试探</h2>
+            <p class="card-text card-text--source">教育部防溺水“六不”原文：不到不熟悉的水域游泳。</p>
+            <p class="card-text card-text--talk">看起来很浅，不代表真的安全。水深、水温、水底有什么，都不能靠脚去试，也不能拿身体去赌。</p>
+            <button class="soft-action" data-effect="reveal" type="button">看看水面下面</button>
+          </div>
+          <div class="underwater interactive-visual handdrawn-visual" aria-hidden="true">
+            <img class="handdrawn-img" src="视觉资产/waterside-handdrawn/seaside-shore.png" alt="">
+            <span class="surface-label">平静水面</span>
+            <span class="hidden-risk risk-a">突然变深</span>
+            <span class="hidden-risk risk-b">水草缠绕</span>
+            <span class="hidden-risk risk-c">石头落差</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-card story-card--rescue" data-card="7" data-title="想帮人，先叫人" data-chapter="7">
+        <div class="card-content">
+          <div class="card-copy">
+            <p class="card-kicker">约定 6</p>
+            <h2>想帮人，先叫人</h2>
+            <p class="card-text card-text--source">教育部防溺水“六不”原文：不熟悉水性的学生不擅自下水施救。</p>
+            <p class="card-text card-text--talk">可以练一句口令：叫、叫、伸、抛。勇敢不是跳下去，勇敢是先让大人知道，用正确的方法帮忙。</p>
+          </div>
+          <div class="rescue-game" aria-label="依次点亮救援步骤">
+            <figure class="rescue-equipment" aria-hidden="true">
+              <img src="视觉资产/waterside-handdrawn/rescue-pole.png" alt="">
+            </figure>
+            <button class="rescue-token" type="button">叫大人</button>
+            <button class="rescue-token" type="button">打 110</button>
+            <button class="rescue-token" type="button">伸长物</button>
+            <button class="rescue-token" type="button">抛漂浮物</button>
+            <p id="rescueTip">依次点亮四步，记住：孩子不下水施救。</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-card story-card--finish" data-card="8" data-title="检验孩子是否记住" data-chapter="8">
+        <div class="card-content">
+          <div class="card-copy">
+            <h2><span>检验孩子</span><span>是否记住</span></h2>
+            <p class="card-text card-text--lead">您已经耐心完成了防溺水六不准学习，您可以和孩子一起复习，欢迎将小鸭嘎嘎公益页面分享给其它家长朋友。</p>
+            <div class="finish-actions">
+              <button class="primary-action" id="shareBtn" type="button">分享给另一位家长</button>
+              <a class="soft-link" id="printLink" href="防溺水六不准/handout.html" target="_blank" rel="noopener">打开可打印资料</a>
+            </div>
+          </div>
+          <div class="repeat-list" aria-label="复述清单">
+            <label><input type="checkbox"> 想去水边，先问大人。</label>
+            <label><input type="checkbox"> 不熟悉的水，不靠近、不试探。</label>
+            <label><input type="checkbox"> 看见有人落水，先叫人、打 110，自己不跳下去。</label>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer class="deck-controls" aria-label="卡片切换">
+    <div class="deck-caption" aria-live="polite">
+      <h2 id="currentTitle">给家长的一封信</h2>
+      <p id="currentHint">一封来自小鸭嘎嘎公益组织的信</p>
+    </div>
+    <div class="arrow-controls">
+      <button class="arrow-btn" id="prevBtn" type="button" aria-label="上一张">←</button>
+      <button class="arrow-btn arrow-btn--next" id="nextBtn" type="button" aria-label="下一张">→</button>
+    </div>
+    <div class="deck-progress" aria-hidden="true">
+      <span id="progressFill"></span>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

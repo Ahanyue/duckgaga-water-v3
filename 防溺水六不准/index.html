@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小鸭爱漂流，也要安全到岸 | 小鸭嘎嘎公益</title>
+<meta name="description" content="小鸭嘎嘎公益出品：写给家长的防溺水互动页，把防溺水六不准讲成孩子更容易接受的六个安全约定，附正确求助与可打印资料。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<!--
+  品牌 Token 摘要（DUCK GAGA 小鸭嘎嘎）：
+  主色 #F5E400 柠檬黄 · 辅助色 粉#FF8FA8 / 蓝#6EC9F5 / 薄荷绿#7FDBB5 · 警示色 #FF5A4E
+  字体：拉丁词标用 Baloo 2（粗圆体），中文沿用系统圆体字重呼应品牌手绘粗描边气质
+  圆角 8/16/24 · 描边统一 4px · 动效 standard/decelerate/accelerate 三组 easing
+  吉祥物：使用 DUCK GAGA 官方 logo 原图（assets/duck-logo.png），仅通过 transform 整体缩放/位移/旋转表达状态，不改画面本身
+-->
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="brand-mark">
+      <span class="duck duck--logo" aria-hidden="true">
+        <img src="assets/duck-logo.png" alt="">
+      </span>
+      <span>
+        DUCK GAGA
+        <small>小鸭嘎嘎公益</small>
+      </span>
+    </div>
+    <nav class="site-nav">
+      <a href="#parents">家长先看</a>
+      <a href="#rules">六个约定</a>
+      <a href="#rescue">遇到险情</a>
+      <a href="#about">关于我们</a>
+    </nav>
+    <a class="btn btn--ghost btn--sm" href="handout.html" target="_blank" rel="noopener">家长/教师资料 ↓</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__copy">
+        <span class="hero__eyebrow">7月25日 · 世界预防溺水日</span>
+        <h1>小鸭爱漂流，<br><em>也要安全到岸</em></h1>
+        <p class="lede">这不是一页“吓唬孩子”的安全知识，而是一份给家长的陪伴清单：把防溺水六不准，讲成孩子听得懂、愿意记住的六个玩水安全约定。</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#parents">先看家长怎么做</a>
+          <a class="btn btn--ghost" href="#rules">和孩子讲六个约定</a>
+        </div>
+        <div class="scroll-cue"><span class="scroll-cue__dot"></span> 向下滑动，和嘎嘎一起把风险说清楚</div>
+      </div>
+      <div class="hero__stage">
+        <span class="sticker sticker--heart sticker--heart-a" aria-hidden="true">♥</span>
+        <span class="sticker sticker--heart sticker--heart-b" aria-hidden="true">♥</span>
+        <span class="sticker sticker--eye sticker--eye-a" aria-hidden="true"></span>
+        <span class="sticker sticker--eye sticker--eye-b" aria-hidden="true"></span>
+        <span class="sticker sticker--wave" aria-hidden="true">水边先停一停</span>
+        <span class="duck" data-mood="happy" aria-hidden="true">
+          <img src="assets/duck-logo.png" alt="">
+          <span class="duck__shadow"></span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 家长先看 ============ -->
+  <section id="parents" class="parent-guide section--yellow">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__kicker">给家长的第一分钟</span>
+        <h2>孩子安全玩水，第一责任人不是孩子，是看护中的大人</h2>
+        <p>“六不准”常常由学校发给学生，但真正能把边界落实到日常的，是家长。可以先和孩子约定这三件小事。</p>
+      </div>
+
+      <div class="parent-grid">
+        <article class="parent-card reveal">
+          <span class="parent-card__icon">👀</span>
+          <h3>知道孩子在哪里</h3>
+          <p>每天问清楚：去哪里、和谁去、做什么、什么时候回。水边不是“顺路玩一下”的地方。</p>
+        </article>
+        <article class="parent-card reveal">
+          <span class="parent-card__icon">🦆</span>
+          <h3>把“不准”说成“约定”</h3>
+          <p>少一点命令，多一句解释：不是不让玩水，是要在有大人、有设施、有救生员的地方安全玩水。</p>
+        </article>
+        <article class="parent-card reveal">
+          <span class="parent-card__icon">☎</span>
+          <h3>先练一次求助口令</h3>
+          <p>让孩子记住：发现有人落水，先叫大人，拨 110；有人受伤或意识异常，拨 120。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 六不准 ============ -->
+  <section id="rules">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__kicker">教育系统常用要求 · 防溺水六不准</span>
+        <h2>把“六不准”，讲成六个安全约定</h2>
+        <p>保留原始规则，但换成孩子更能接住的说法。点开卡片，可以直接照着讲给孩子听。</p>
+        <div class="rule-progress">
+          <span class="rule-progress__bar"><span class="rule-progress__fill" id="rule-progress-fill"></span></span>
+          <span class="rule-progress__label" id="rule-progress-label">已聊 0 / 6</span>
+        </div>
+      </div>
+
+      <div class="rule-grid">
+
+        <article class="rule-card reveal" tabindex="0" role="button" aria-expanded="false">
+          <span class="rule-card__index"><span class="rc-num">1</span><span class="rc-check">✓</span></span>
+          <p class="rule-card__original">原文：不准私自下水游泳</p>
+          <h3>想下水，先问大人</h3>
+          <div class="rule-card__detail"><div><p>可以这样讲：水边的危险有时看不出来。你想玩水，先来找爸爸妈妈，我们一起判断哪里能玩、怎么玩。</p></div></div>
+          <span class="rule-card__toggle">点开，看看怎么讲 +</span>
+        </article>
+
+        <article class="rule-card reveal" tabindex="0" role="button" aria-expanded="false">
+          <span class="rule-card__index"><span class="rc-num">2</span><span class="rc-check">✓</span></span>
+          <p class="rule-card__original">原文：不准擅自与他人结伴游泳</p>
+          <h3>朋友叫你，也要先回家说</h3>
+          <div class="rule-card__detail"><div><p>可以这样讲：好朋友一起玩很开心，但小朋友彼此保护不了彼此。没有负责任的大人在场，就不能去水边冒险。</p></div></div>
+          <span class="rule-card__toggle">点开，看看怎么讲 +</span>
+        </article>
+
+        <article class="rule-card reveal" tabindex="0" role="button" aria-expanded="false">
+          <span class="rule-card__index"><span class="rc-num">3</span><span class="rc-check">✓</span></span>
+          <p class="rule-card__original">原文：不准在无家长或教师带领下游泳</p>
+          <h3>会游，也要有人看着</h3>
+          <div class="rule-card__detail"><div><p>可以这样讲：学会游泳很好，但会游泳不等于不会遇险。爸爸妈妈或老师在旁边，是为了让快乐玩水有保护。</p></div></div>
+          <span class="rule-card__toggle">点开，看看怎么讲 +</span>
+        </article>
+
+        <article class="rule-card reveal" tabindex="0" role="button" aria-expanded="false">
+          <span class="rule-card__index"><span class="rc-num">4</span><span class="rc-check">✓</span></span>
+          <p class="rule-card__original">原文：不准到无安全设施、无救护人员的水域游泳</p>
+          <h3>没有救生员的水，不靠近</h3>
+          <div class="rule-card__detail"><div><p>可以这样讲：河道、水库、鱼塘、工地积水坑看着平静，下面可能有深坑、暗流和水草。没有救生员和救生设备，就不是玩水的地方。</p></div></div>
+          <span class="rule-card__toggle">点开，看看怎么讲 +</span>
+        </article>
+
+        <article class="rule-card reveal" tabindex="0" role="button" aria-expanded="false">
+          <span class="rule-card__index"><span class="rc-num">5</span><span class="rc-check">✓</span></span>
+          <p class="rule-card__original">原文：不准到不熟悉的水域游泳</p>
+          <h3>不认识的水，不试探</h3>
+          <div class="rule-card__detail"><div><p>可以这样讲：“看起来很浅”不等于真的安全。水深、水温、水底情况都不知道，就不能用脚去试、用身体去赌。</p></div></div>
+          <span class="rule-card__toggle">点开，看看怎么讲 +</span>
+        </article>
+
+        <article class="rule-card reveal" tabindex="0" role="button" aria-expanded="false">
+          <span class="rule-card__index"><span class="rc-num">6</span><span class="rc-check">✓</span></span>
+          <p class="rule-card__original">原文：不熟悉水性的学生不准擅自下水施救</p>
+          <h3>想帮人，先叫人</h3>
+          <div class="rule-card__detail"><div><p>可以这样讲：勇敢不是跳下去，勇敢是马上大声呼救、找大人、拿长物和漂浮物帮忙。先保护自己，才是真的救人。</p></div></div>
+          <span class="rule-card__toggle">点开，看看怎么讲 +</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 施救方法 ============ -->
+  <section id="rescue" class="section--alt">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__kicker">遇到险情</span>
+        <h2>看到有人溺水，该怎么做？</h2>
+        <p>给孩子记一个更完整的口令：<strong>叫、叫、伸、抛</strong>。先呼叫大人，再报警求助；不会游泳的人，绝不下水施救。</p>
+      </div>
+
+      <div class="rescue-banner reveal">
+        <span class="duck" data-mood="alert" aria-hidden="true">
+          <img src="assets/duck-logo.png" alt="">
+          <span class="duck__shadow"></span>
+        </span>
+        <span>小鸭爱漂流，是因为先学会了安全技巧：不乱下水，不盲目救人，先让专业的大人来帮忙。</span>
+      </div>
+
+      <div class="rescue-steps">
+        <div class="rescue-step">
+          <div class="rescue-step__glyph">叫</div>
+          <h3>大声呼救</h3>
+          <p>立刻大喊“有人落水了”，叫周围成年人过来帮忙。孩子只要做到这一句，就已经很重要。</p>
+        </div>
+        <div class="rescue-step">
+          <div class="rescue-step__glyph">☎</div>
+          <h3>报警求助</h3>
+          <p>拨打 <strong>110</strong> 说清楚位置；如果落水者已被救起、受伤或意识异常，同时拨打 <strong>120</strong>。</p>
+        </div>
+        <div class="rescue-step">
+          <div class="rescue-step__glyph">伸</div>
+          <h3>伸出长物</h3>
+          <p>用竹竿、树枝、绳子、衣服等长条物伸给溺水者抓握，把人拉向岸边，自己保持重心稳定不被拖下水。</p>
+        </div>
+        <div class="rescue-step">
+          <div class="rescue-step__glyph">抛</div>
+          <h3>抛投漂浮物</h3>
+          <p>把救生圈、泡沫板、空塑料瓶等能漂浮的东西抛向溺水者，帮助其在等待专业救援时浮在水面上。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 紧急电话 ============ -->
+  <section id="emergency">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__kicker">紧急求助</span>
+        <h2>先记住这两个号码</h2>
+        <p>手机点击号码即可直接拨打。110 处理报警求助并协调救援；120 处理已经出现伤害后的医疗急救。</p>
+      </div>
+      <div class="call-grid">
+        <a class="call-tile reveal" href="tel:110">
+          <div class="call-tile__num">110</div>
+          <div class="call-tile__label">有人落水 / 需要救援</div>
+          <div class="call-tile__desc">报警求助，说清具体地点和现场情况</div>
+        </a>
+        <a class="call-tile reveal" href="tel:120">
+          <div class="call-tile__num">120</div>
+          <div class="call-tile__label">已受伤 / 需要急救</div>
+          <div class="call-tile__desc">落水者救起后，呼吸异常、昏迷、受伤等情况立即拨打</div>
+        </a>
+      </div>
+      <p class="emergency-note">119 属于消防救援电话，现实救援中可能联动参与；但家长和孩子的记忆负担越轻越好，本页主推 110 + 120。</p>
+    </div>
+  </section>
+
+  <!-- ============ 家长教师资料 ============ -->
+  <section class="section--alt">
+    <div class="container">
+      <div class="handout-cta reveal">
+        <div>
+          <h2>写给家长和老师</h2>
+          <p>孩子不会因为看过一次页面就自动安全。我们准备了一份可打印资料，方便家长会、班会、社区活动使用，也方便你转发给其他家长。</p>
+          <ul class="handout-cta__list">
+            <li>六不准完整条文 + 详细解读</li>
+            <li>叫 · 叫 · 伸 · 抛 施救图解</li>
+            <li>家长沟通话术 + 求助流程</li>
+          </ul>
+          <a class="btn btn--primary" href="handout.html" target="_blank" rel="noopener">打开可打印资料 →</a>
+        </div>
+        <div class="hero__stage">
+          <span class="duck" data-mood="worried" aria-hidden="true">
+            <img src="assets/duck-logo.png" alt="">
+            <span class="duck__shadow"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 关于我们 ============ -->
+  <section id="about">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__kicker">关于我们</span>
+        <h2>了解小鸭嘎嘎</h2>
+        <p>这份安全知识由谁在做、为什么做——花一分钟认识一下我们。</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal-left">
+          <span class="duck duck--logo about-card__duck" aria-hidden="true">
+            <img src="assets/duck-logo.png" alt="">
+          </span>
+          <p class="about-card__en">HELLO I'M GAGA</p>
+          <p class="about-card__tag">LITTLE DUCKIE BIG VOICE</p>
+        </div>
+        <div class="about-copy reveal-right">
+          <p>深圳市小鸭嘎嘎公益文化促进中心，是一家由青年人联合发起的非营利机构，长期关注儿童健康成长与环境保护，致力于以轻松、有趣、可参与的方式传播公益知识——防溺水安全教育，正是我们持续在做的公益项目之一。</p>
+          <div class="about-stats">
+            <div><b><span class="count-up" data-count="10">0</span>+</b><span>资助非营利机构</span></div>
+            <div><b><span class="count-up" data-count="4">0</span>年+</b><span>公益实践</span></div>
+            <div><b>&infin;</b><span>快乐公益</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-cta">
+      <span class="duck about-cta__duck" data-mood="happy" aria-hidden="true">
+        <img src="assets/duck-logo.png" alt="">
+      </span>
+      <div class="container about-cta__inner reveal">
+        <h3>把这页转给一位家长，也许就多一道安全边界</h3>
+        <p>让孩子记住：可以亲近水，但不能轻视水。</p>
+        <div class="about-cta__actions">
+          <button class="btn btn--dark" id="share-btn" type="button">分享给朋友</button>
+          <a class="btn btn--ghost-dark" href="http://www.duckgaga.org/" target="_blank" rel="noopener">访问官网</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="footer-col footer-col--brand">
+      <div class="brand-mark">
+        <span class="duck duck--logo" aria-hidden="true">
+          <img src="assets/duck-logo.png" alt="">
+        </span>
+        <span>DUCK GAGA <small>小鸭嘎嘎公益</small></span>
+      </div>
+      <p>深圳市小鸭嘎嘎公益文化促进中心 — 充满活力、由青年人联合发起的非营利机构，致力于传播创新公益文化，帮助一些人，影响更多人。</p>
+    </div>
+    <div class="footer-col">
+      <h4>联系方式</h4>
+      <ul class="footer-contact">
+        <li>电话：<a href="tel:075582762819">0755 82762819</a></li>
+        <li>邮箱：<a href="mailto:duckgaga365@163.com">duckgaga365@163.com</a></li>
+        <li>网址：<a href="http://www.duckgaga.org/" target="_blank" rel="noopener">www.duckgaga.org</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>关注我们</h4>
+      <ul class="footer-contact">
+        <li>微信公众号：小鸭嘎嘎</li>
+        <li>微博：小鸭嘎嘎微公益</li>
+      </ul>
+      <p class="footer-en">LITTLE DUCKIE BIG VOICE</p>
+    </div>
+  </div>
+  <div class="site-footer__bottom">
+    <div class="container site-footer__bottom-inner">
+      <span>&copy; <span id="copyright-year"></span> 深圳市小鸭嘎嘎公益文化促进中心. All Rights Reserved.</span>
+      <span>防溺水安全教育专题 · 与嘎嘎一起守护生命</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
