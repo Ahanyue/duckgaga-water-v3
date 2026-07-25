@@ -425,6 +425,19 @@ body.cursor-hover .duck-cursor {
 .story-card--letter { --card-bg: #fff7bd; --card-accent: var(--duck-pink); }
 .story-card--why { --card-bg: #dff3fe; --card-accent: var(--duck-blue); }
 .story-card--promises { --card-bg: #fffdf2; --card-accent: var(--duck-yellow); }
+
+.story-card.story-card--why .card-content {
+  padding-top: 22px;
+  gap: clamp(30px, 4vw, 58px);
+}
+
+.story-card.story-card--why .card-copy {
+  gap: 9px;
+}
+
+.story-card.story-card--why .card-copy p {
+  margin: 10px 0 0;
+}
 .story-card--ask { --card-bg: #ffe1e9; --card-accent: var(--duck-pink); }
 .story-card--watch { --card-bg: #e2f8ee; --card-accent: var(--duck-mint); }
 .story-card--map { --card-bg: #fff7bd; --card-accent: var(--duck-yellow); }
