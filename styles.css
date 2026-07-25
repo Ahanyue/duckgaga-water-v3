@@ -996,14 +996,27 @@ body.cursor-hover .duck-cursor {
 }
 
 .place b {
-  position: relative;
+  position: absolute;
+  top: 14px;
+  right: 14px;
   z-index: 2;
   width: fit-content;
-  border-radius: var(--radius-pill);
-  padding: 4px 11px;
+  border-radius: 12px;
+  padding: 5px 10px 6px;
   color: var(--duck-black);
-  background: var(--duck-yellow);
   border: 2px solid var(--duck-black);
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  box-shadow: 0 3px 0 rgba(17, 18, 14, 0.82);
+}
+
+.place.good b {
+  background: #8ee89a;
+}
+
+.place.bad b {
+  background: #ff6b5d;
 }
 
 .place span {
@@ -2814,7 +2827,12 @@ body {
   }
 
   .story-card:not(.story-card--letter).story-card--map .place b {
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px 5px;
+    border-radius: 10px;
     font-size: 12.5px;
+    box-shadow: 0 2px 0 rgba(17, 18, 14, 0.82);
   }
 
   .story-card:not(.story-card--letter).story-card--map .place span {
